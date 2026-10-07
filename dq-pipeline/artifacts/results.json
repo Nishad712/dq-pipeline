@@ -1,0 +1,42 @@
+{
+  "rows": 200000,
+  "customers": 5000,
+  "clean_batches": 40,
+  "false_positives_on_clean": 0,
+  "validation_rows_per_sec": 562267,
+  "fault_detection": {
+    "nulls": "40/40",
+    "negative_amount": "40/40",
+    "duplicate_key": "40/40",
+    "missing_column": "40/40",
+    "type_change": "40/40",
+    "unknown_category": "40/40",
+    "future_timestamp": "40/40",
+    "drift_x1.05": "6/40",
+    "drift_x1.15": "40/40",
+    "drift_x1.5": "40/40"
+  },
+  "structural_faults_detected": 320,
+  "structural_faults_injected": 320,
+  "gated_ingest": {
+    "accepted": 36,
+    "rejected": 4,
+    "rejected_idx": [
+      3,
+      11,
+      20,
+      33
+    ],
+    "rows_in_store": 180000,
+    "seconds": 1.27
+  },
+  "idempotent_replay_row_delta": 0,
+  "sql_feature_seconds": 0.309,
+  "feature_rows": 5000,
+  "train_seconds": 0.92,
+  "model_version": "v_d33e621246df38b6",
+  "auc_gated_data": 0.7751,
+  "ungated_rows_in_store": 200000,
+  "ungated_null_or_negative_amounts": 10,
+  "ungated_unknown_category_rows": 5
+}

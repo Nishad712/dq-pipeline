@@ -1,0 +1,14 @@
+{
+  "data_hash": "d33e621246df38b6",
+  "n_rows": 5000,
+  "auc": 0.7751,
+  "features": [
+    "txn_count",
+    "avg_amount",
+    "max_amount",
+    "n_categories",
+    "night_ratio",
+    "web_ratio"
+  ],
+  "trained_at": "2026-10-07T16:54:14"
+}
